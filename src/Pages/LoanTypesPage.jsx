@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/navbar.jsx';
 
 const LoanTypesPage = () => {
   const navigate = useNavigate();
@@ -105,6 +106,8 @@ const LoanTypesPage = () => {
           }
         }
       `}</style>
+
+      <Navbar />
 
       <div className="header">
         <button

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/navbar.jsx';
 
 const ReviewApplicationPage = () => {
   const navigate = useNavigate();
@@ -190,6 +191,8 @@ const ReviewApplicationPage = () => {
           }
         }
       `}</style>
+
+      <Navbar />
 
       <div className="header-simple">
         <h3>CFL 7/7</h3>

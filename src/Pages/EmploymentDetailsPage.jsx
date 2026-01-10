@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/navbar.jsx';
 
 const EmploymentDetailsPage = () => {
   const navigate = useNavigate();
@@ -179,6 +180,8 @@ const EmploymentDetailsPage = () => {
           }
         }
       `}</style>
+
+      <Navbar />
 
       <div className="header-simple">
         <h3>CFL 3/7</h3>

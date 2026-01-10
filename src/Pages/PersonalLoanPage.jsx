@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, FileText, Briefcase, DollarSign, TrendingUp, Home, Link2, Gem, Zap, Star, CheckCircle } from 'lucide-react';
+import Navbar from '../components/navbar.jsx';
 
 const PersonalLoanPage = () => {
   const navigate = useNavigate();
@@ -302,6 +303,8 @@ const PersonalLoanPage = () => {
           }
         }
       `}</style>
+
+      <Navbar />
 
       <div className="header">
         <button className="back-btn" onClick={handleBack} aria-label="Back">

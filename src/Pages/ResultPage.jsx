@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Download, Building2, CheckCircle } from 'lucide-react';
+import Navbar from '../components/navbar.jsx';
 
 const ResultPage = () => {
   const navigate = useNavigate();
@@ -187,6 +188,8 @@ const ResultPage = () => {
           }
         }
       `}</style>
+
+      <Navbar />
 
       <div className="header-simple">
         <h3>CFL</h3>

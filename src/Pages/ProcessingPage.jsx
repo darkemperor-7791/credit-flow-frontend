@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/navbar.jsx';
 
 const ProcessingPage = () => {
   const navigate = useNavigate();
@@ -155,6 +156,8 @@ const ProcessingPage = () => {
           }
         }
       `}</style>
+
+      <Navbar />
 
       <div className="header-simple">
         <h3>CFL</h3>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Phone, MessageSquare, Package, MapPin } from 'lucide-react';
+import Navbar from '../components/navbar.jsx';
 
 const GrantPermissionsPage = () => {
   const navigate = useNavigate();
@@ -228,6 +229,8 @@ const GrantPermissionsPage = () => {
           }
         }
       `}</style>
+
+      <Navbar />
 
       <div className="header-simple">
         <h3>CFL 4/7</h3>
